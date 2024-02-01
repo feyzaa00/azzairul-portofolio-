@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>myportofolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../../output.css">
+    <link rel="icon" href="img/icon/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>*{font-family: 'poppins';}</style>
+</head>
+<body class="bg-[hsl(260,14%,8%)]">
+    
+    <header class="fixed top-0 left-0 right-0 flex justify-between items-center px-4 z-50 py-3.5  bg-[hsl(260,14%,8%)]">
+        <div class="flex items-center gap-1">
+            <img src="img/favicon-32x32.png">
+            <h1 class="text-slate-50 text-lg font-semibold">zafolio.</h1>
+        </div>
+
+        <div>
+            <img src="img/favicon-32x32.png">
+        </div>
+    </header>
+
+
+    <main class="flex flex-col w-[90%] mx-auto pt-[90px] max-[400px]:w-[95%] sm:w-[95%] lg:w-[984px]">
+
+        <div class="flex flex-col">
+            <img src="img/profile1.jpg" class="w-[200px] rounded-full h-[200px] border-[2px] border-[hsl(255,10%,10%)]">
+            <div class="mt-5">
+                <h2 class="text-sm text-slate-300 font-medium capitalize">computer science student</h2>
+                <h3 class="text-2xl font-medium text-slate-200 my-1">azzairul</h3>
+                <p class="text-sm mt-1.5 text-slate-300">
+                    saya sangat tertarik dengan website development dan saat ini sedang belajar menjadi website developer.
+                </p>
+                <div class="flex mt-4 gap-2">
+                    <div class="flex items-center gap-2 border-[0.5px] border-[hsl(264,7%,29%)] py-1 px-3 rounded-lg cursor-pointer hover:bg-slate-200 transition duration-300 group">
+                        <i class="fa-regular fa-envelope text-slate-200 text-[12px] group-hover:text-[hsl(260,14%,8%)] transition duration-300"></i>
+                        <span class="text-slate-200 text-[12px]  group-hover:text-[hsl(260,14%,8%)] transition duration-300">azzairul330@gmail.com</span>
+                    </div>
+                    <div class="flex items-center  gap-2 border-[0.5px] border-[hsl(264,7%,29%)] py-1 px-3 rounded-lg cursor-pointer hover:bg-slate-200 transition duration-300 group">
+                        <i class="fa-solid fa-phone text-slate-200 text-[12px]  group-hover:text-[hsl(260,14%,8%)] transition duration-300"></i>
+                        <span class="text-slate-200 text-[12px] max-[372px]:text-[11px]  group-hover:text-[hsl(260,14%,8%)] transition duration-300">+62 3861652293</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col mt-10 md:flex-row md:gap-5">
+
+            <div class="bg-[hsl(264,8%,12%)] p-3 rounded-lg md:max-h-[260px] lg:max-h-[230px]">
+                <h2 class="text-sm text-slate-200 pb-2 border-b-[0.5px] border-b-[hsl(264,7%,29%)] font-medium">about</h2>
+                <p class="text-[12px] text-slate-200 py-3 border-b-[0.5px] border-b-[hsl(264,7%,29%)]">
+                    saya berumur 20tahun dan saya sangat memiliki minat<br>tinggi pada bidang website development
+                </p>
+                <div class="py-3 flex flex-col gap-4">
+                    <p class="flex items-center gap-2">
+                        <i class="fa-solid fa-location-dot text-slate-200 text-base"></i>
+                        <span class="text-slate-200 text-xs capitalize">Sumatera Barat, Indonesia</span>
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <i class="fa-solid fa-briefcase text-slate-200 text-base"></i>
+                        <span class="text-slate-200 text-xs capitalize">sekolah tinggi tekhnologi payakumbuh</span>
+                    </p>
+                    <p class="flex items-center gap-2">
+                        <i class="fa-solid fa-globe text-slate-200 text-base"></i>
+                        <span class="text-slate-200 text-xs">https://azzairul.com</span>
+                    </p>
+                </div>           
+            </div>
+
+            <div class="mt-7 md:mt-0"> 
+                <div>
+                    <div class="flex justify-center  border-b-[1px] border-b-[hsl(264,7%,29%)] max-w-[620px]">
+                        <div class="px-7 hover:bg-[hsl(254,12%,22%)] py-2.5 rounded-t-lg transition duration-300" id="projectTitleClick">
+                            <p class="text-[hsl(255,80%,80%)] relative text-sm capitalize after:content-[''] after:absolute after:-bottom-[10px] after:left-0 after:w-full after:h-[2px] after:bg-[hsl(255,73%,73%)] after:rounded-md cursor-pointer" id="projectTitle">project</p>
+                        </div>
+                        <div class="px-7 hover:bg-[hsl(254,12%,22%)] py-2.5 rounded-t-lg transition duration-300" id="resumeTitleClick">
+                            <p class="text-slate-200 text-sm capitalize cursor-pointer relative after:content-[''] after:absolute after:-bottom-[10px] after:left-0 after:w-full after:h-[2px] after:bg-[hsl(255,73%,73%)] after:rounded-md  after:hidden" id="resumeTitle">resume</p>
+                        </div>
+                        <div class="px-7 hover:bg-[hsl(254,12%,22%)] py-2.5 rounded-t-lg transition duration-300" id="contactTitleClick">
+                            <p class="text-slate-200 text-sm capitalize cursor-pointer relative after:content-[''] after:absolute after:-bottom-[10px] after:left-0 after:w-full after:h-[2px] after:bg-[hsl(255,73%,73%)] after:rounded-md after:hidden" id="contactTitle">contact</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content saat project active -->
+                <div class="mt-6 flex gap-7 flex-col flex-wrap sm:flex-row  sm:gap-3 sm:max-w-[600px]" id="project">
+
+                    <div class="bg-[hsl(264,8%,12%)] p-3 rounded-t-xl rounded-b-md flex flex-col gap-3 sm:w-[290px]  justify-center md:w-full lg:w-[290px]">
+                        <img src="img/project-11.png" class="rounded-lg">
+                        <div>
+                            <p class="font-light text-slate-200 text-sm capitalize">web app</p>
+                            <p class="text-slate-200 mt-1 font-medium capitalize">Zahoteel - Hotel Website</p>
+                        </div>
+                    </div>
+                    <div class="bg-[hsl(264,8%,12%)] p-3 rounded-t-xl rounded-b-md flex flex-col gap-3 justify-center sm:w-[290px]  md:w-full lg:w-[290px]">
+                        <img src="img/project-22.png" class="rounded-lg">
+                        <div>
+                            <p class="font-light text-slate-200 text-sm capitalize">web app</p>
+                            <p class="text-slate-200 mt-1 font-medium capitalize">Toko Pakaian - Store System</p>
+                        </div>
+                    </div>
+                    <div class="bg-[hsl(264,8%,12%)] p-3 rounded-t-xl rounded-b-md flex flex-col gap-3 justify-center sm:w-[290px] md:w-full lg:w-[290px]">
+                        <img src="img/project-33.png" class="rounded-lg">
+                        <div>
+                            <p class="font-light text-slate-200 text-sm capitalize">web app</p>
+                            <p class="text-slate-200 mt-1 font-medium capitalize">Portofolio - Portofolio landing page</p>
+                        </div>
+                    </div>
+                    <div class="bg-[hsl(264,8%,12%)] p-3 rounded-t-xl rounded-b-md flex flex-col gap-3 justify-center sm:w-[290px] md:w-full lg:w-[290px]">
+                        <img src="img/project-44.png" class="rounded-lg">
+                        <div>
+                            <p class="font-light text-slate-200 text-sm capitalize">web app</p>
+                            <p class="text-slate-200 mt-1 font-medium capitalize">Foods - restaurant landing page</p>
+                        </div>
+                    </div>
+                    <div class="bg-[hsl(264,8%,12%)] p-3 rounded-t-xl rounded-b-md flex flex-col gap-3 justify-center sm:w-[290px] md:w-full lg:w-[290px]">
+                        <img src="img/project-55.png" class="rounded-lg">
+                        <div>
+                            <p class="font-light text-slate-200 text-sm capitalize">web app</p>
+                            <p class="text-slate-200 mt-1 font-medium capitalize">TodoList - Todo List App</p>
+                        </div>
+                    </div>
+                    <div class="bg-[hsl(264,8%,12%)] p-3 rounded-t-xl rounded-b-md flex flex-col gap-3 justify-center sm:w-[290px] md:w-full lg:w-[290px]">
+                        <img src="img/project-66.png" class="rounded-lg">
+                        <div>
+                            <p class="font-light text-slate-200 text-sm capitalize">web app</p>
+                            <p class="text-slate-200 mt-1 font-medium capitalize">Zadompet - Ewallet App</p>
+                        </div>
+                    </div>
+                    <div class="bg-[hsl(264,8%,12%)] p-3 rounded-t-xl rounded-b-md flex flex-col gap-3 justify-center sm:w-[290px] md:w-full lg:w-[290px]">
+                        <img src="img/project-77.png" class="rounded-lg">
+                        <div>
+                            <p class="font-light text-slate-200 text-sm capitalize">web app</p>
+                            <p class="text-slate-200 mt-1 font-medium capitalize">MusicFey - Music App</p>
+                        </div>
+                    </div>
+                    <div class="bg-[hsl(264,8%,12%)] p-3 rounded-t-xl rounded-b-md flex flex-col gap-3 justify-center sm:w-[290px] md:w-full lg:w-[290px]">
+                        <img src="img/project-88.png" class="rounded-lg">
+                        <div>
+                            <p class="font-light text-slate-200 text-sm capitalize">web app</p>
+                            <p class="text-slate-200 mt-1 font-medium capitalize">Eduford - Campus Landing page</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- content saat resume active -->
+                <div id="resume" class="flex-col mt-6 hidden md:w-[500px] lg:w-[600px]">
+
+                    <div class="">
+                        <h2 class="text-sm capitalize text-slate-200">education</h2>
+                        <div class="flex flex-col gap-3 mt-4 md:flex-row md:flex-wrap">
+
+                            <div class="bg-[hsl(240,9%,10%)] p-3 rounded-lg md:max-w-[235px] lg:max-w-[290px]">
+                                <h2 class="text-slate-200 font-medium text-sm capitalize">SDN 01 Koto Tangah Batu Hampa</h2>
+                                <p class="text-[hsl(255,80%,80%)] text-xs capitalize mt-1">2009 - 2015</p>
+                                <p class="text-slate-200 text-xs mt-1">
+                                    SDN ini berlokasi di Prov. Sumatera Barat, Kab. Lima Puluh Koto, Kec. Akabiluru. 
+                                </p>
+                            </div>
+                            <div class="bg-[hsl(240,9%,10%)] p-3 rounded-lg md:max-w-[235px] lg:max-w-[290px]">
+                                <h2 class="text-slate-200 font-medium text-sm capitalize">SMTsN 6 Lima Puluh Kota</h2>
+                                <p class="text-[hsl(255,80%,80%)] text-xs capitalize mt-1">2015 - 2018</p>
+                                <p class="text-slate-200 text-xs mt-1">
+                                    MTsN ini berlokasi di Piladang Kecamatan Akabiluru Kab.Lima Puluh Kota, 26271, Sumbar, Indonesia. 
+                                </p>
+                            </div>
+                            <div class="bg-[hsl(240,9%,10%)] p-3 rounded-lg md:max-w-[235px] lg:max-w-[290px]">
+                                <h2 class="text-slate-200 font-medium text-sm capitalize">SMKN 02 Payakumbuh</h2>
+                                <p class="text-[hsl(255,80%,80%)] text-xs capitalize mt-1">2018 - 2021</p>
+                                <p class="text-slate-200 text-xs mt-1">
+                                    SMKN ini berlokasi di JL.Soekarno-Hatta/Anggrek I , Payakumbuh Barat, Kota Payakumbuh, Sumatera Barat 
+                                </p>
+                            </div>
+                            <div class="bg-[hsl(240,9%,10%)] p-3 rounded-lg md:max-w-[235px] lg:max-w-[290px]">
+                                <h2 class="text-slate-200 font-medium text-sm capitalize">STT Payakumbuh</h2>
+                                <p class="text-[hsl(255,80%,80%)] text-xs capitalize mt-1">2021 - sekarang</p>
+                                <p class="text-slate-200 text-xs mt-1">
+                                    STT Payakumbuh berlokasi di Payakumbuh,Jl.Khatib Sulaiman Sawah Padang 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="mt-10">
+                        <h2 class="text-sm capitalize text-slate-200">Skills and technologies</h2>
+                        <div class="flex flex-wrap gap-3 max-[372px]:gap-2 mt-6 ">
+
+                            <div class="bg-[hsl(264,8%,12%)] p-3 rounded-lg w-[170px] max-[372px]:w-[150px] flex items-center gap-2 lg:w-[140px]">
+                                <img src="img/html5.svg">
+                                <span class="text-slate-200 lg:text-sm">HTML5</span>
+                            </div>
+                            <div class="bg-[hsl(264,8%,12%)] p-3 rounded-lg w-[170px] max-[372px]:w-[150px] flex items-center gap-2 lg:w-[140px]">
+                                <img src="img/javascript.svg">
+                                <span class="text-slate-200 lg:text-sm">Javascript</span>
+                            </div>
+                            <div class="bg-[hsl(264,8%,12%)] p-3 rounded-lg w-[170px] max-[372px]:w-[150px] flex items-center gap-2 lg:w-[140px]">
+                                <img src="img/css3.svg">
+                                <span class="text-slate-200 lg:text-sm">CSS</span>
+                            </div>
+                            <div class="bg-[hsl(264,8%,12%)] p-3 rounded-lg w-[170px] max-[372px]:w-[150px] flex items-center gap-2 lg:w-[140px]">
+                                <img src="img/react.js.svg" class="w-[28px] h-[28px]">
+                                <span class="text-slate-200 lg:text-sm">React</span>
+                            </div>
+                            <div class="bg-[hsl(264,8%,12%)] p-3 rounded-lg w-[170px] max-[372px]:w-[150px] flex items-center gap-2 lg:w-[140px]">
+                                <img src="img/tailwind.svg" width="28px" height="28px">
+                                <span class="text-slate-200 lg:text-sm">Tailwind</span>
+                            </div>
+                            <div class="bg-[hsl(264,8%,12%)] p-3 rounded-lg w-[170px] max-[372px]:w-[150px] flex items-center gap-2 lg:w-[140px]">
+                                <img src="img/php.svg" width="28px" height="28px">
+                                <span class="text-slate-200 lg:text-sm">PHP</span>
+                            </div>
+                            <div class="bg-[hsl(264,8%,12%)] p-3 rounded-lg w-[170px] max-[372px]:w-[150px] flex items-center gap-2 lg:w-[140px]">
+                                <img src="img/mysql.png" width="28px" height="28px">
+                                <span class="text-slate-200 lg:text-sm">Mysql</span>
+                            </div>
+                            <div class="bg-[hsl(264,8%,12%)] p-3 rounded-lg w-[170px] max-[372px]:w-[150px] flex items-center gap-2 lg:w-[140px]">
+                                <img src="img/icons8-bootstrap.svg" width="28px" height="28px">
+                                <span class="text-slate-200 lg:text-sm">Bootstrap</span>
+                            </div>
+
+                        </div>
+                    </div>
+
+       
+
+                </div>
+
+                <!-- content saat contact active -->
+                <div id="contact" class="flex-col hidden md:max-w-[500px]">
+                    <div class="mt-5">
+                        <h2 class="text-slate-200 font-medium text-sm mb-4 capitalize">contact info</h2>
+
+                        <div class="flex items-center gap-5 mb-5 pl-4">
+                            <i class="fa-regular fa-envelope text-slate-200 text-lg"></i>
+                            <div>
+                                <p class="text-[hsl(240,1%,26%)] capitalize text-xs mb-1">mail </p>
+                                <p class="text-slate-200 text-xs mb-1">azzairul8@gmail.com</p>
+                                <p class="text-slate-200 text-xs mb-1">bgzar@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-5 mb-5 pl-4">
+                            <i class="fa-solid fa-phone text-slate-200 text-lg"></i>
+                            <div>
+                                <p class="text-[hsl(240,1%,26%)] capitalize text-xs mb-1">contact us</p>
+                                <p class="text-slate-200 capitalize text-xs mb-1">+62 83861652293</p>
+                                <p class="text-slate-200 capitalize text-xs mb-1">+62 83809945535</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center gap-5 mb-5 border-b-[0.5px] border-b-[hsl(264,7%,29%)] pb-6 pl-4">
+                            <i class="fa-solid fa-location-dot text-slate-200 text-lg"></i>
+                            <div>
+                                <p class="text-[hsl(240,1%,26%)] capitalize text-xs mb-1">address</p>
+                                <p class="text-slate-200 capitalize text-xs mb-1">sumatera barat,indonesia</p>
+                            </div>
+                        </div>
+
+                        <h2 class="text-slate-200 font-medium text-sm mb-4 capitalize">Social info</h2>
+                        <div class="flex gap-8 mt-5 pl-4">
+                            <a href="#"><i class="fa-brands fa-instagram text-slate-200 text-2xl hover:text-[hsl(255,80%,80%)] transition duration-300 hover:scale-125"></i></a>
+                            <a href="#"><i class="fa-brands fa-facebook text-slate-200 text-2xl hover:text-[hsl(255,80%,80%)] transition duration-300 hover:scale-125"></i></a>
+                            <a href="#"><i class="fa-brands fa-whatsapp text-slate-200 text-2xl hover:text-[hsl(255,80%,80%)] transition duration-300 hover:scale-125"></i></a>
+                        </div>
+
+                    </div>
+
+                    <div class="bg-[hsl(264,8%,12%)] mt-5 rounded-lg px-3 py-4">
+                        <h2 class="text-slate-200 capitalize mb-4">Let's work together.</h2>
+                        <form>
+                            <input type="text" placeholder="Name*" class="w-full bg-[hsl(264,8%,12%)] border-[1.5px] placeholder:text-[hsl(0,0%,70%)] placeholder:text-sm border-[hsl(264,7%,29%)] rounded-sm px-4 py-1.5 mb-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-[hsl(255,80%,80%)]">
+                            <input type="email" placeholder="Email*" class="w-full bg-[hsl(264,8%,12%)] border-[1.5px] placeholder:text-[hsl(0,0%,70%)] placeholder:text-sm border-[hsl(264,7%,29%)] rounded-sm px-4 py-1.5 mb-2 focus:outline-none focus:ring-1 focus:ring-[hsl(255,80%,80%)]">
+                            <input type="text" placeholder="Subject" class="w-full bg-[hsl(264,8%,12%)] border-[1.5px] placeholder:text-[hsl(0,0%,70%)] placeholder:text-sm border-[hsl(264,7%,29%)] rounded-sm px-4 py-1.5 mb-2 text-slate-200 focus:outline-none focus:ring-1 focus:ring-[hsl(255,80%,80%)]">
+                            <input type="text" placeholder="Message*" class="w-full bg-[hsl(264,8%,12%)] border-[1.5px] placeholder:text-[hsl(0,0%,70%)] placeholder:text-sm border-[hsl(264,7%,29%)] rounded-sm px-4 py-1.5 mb-2 pb-11 text-slate-200 focus:outline-none focus:ring-1 focus:ring-[hsl(255,80%,80%)]">
+                            <button type="submit" class="bg-[hsl(255,80%,80%)] text-[hsl(256,39%,19%)] text-center py-2 rounded-[20px] w-full">send message</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+    <p class="text-slate-200 text-[12px] pt-3 border-t-[0.5px] border-t-[hsl(264,7%,29%)] mt-10 text-center capitalize pb-3">Copyright 2023.All right reserved by azzairul</p>
+
+
+<script src="index.js"></script>
+</body>
+</html>
